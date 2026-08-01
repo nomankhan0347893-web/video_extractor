@@ -29,9 +29,13 @@ mistralai
 
 # ---------- RAG Pipeline (Vector Store + Embeddings) ----------
 chromadb
+langchain-chroma
 sentence-transformers
 huggingface-hub
 langchain-huggingface
+# ---------- RAG Pipeline (Vector Store + Embeddings) ----------
+
+
 
 # ---------- Text Chunking / Utilities ----------
 tiktoken
