@@ -1,0 +1,46 @@
+# ---------- UI ----------
+streamlit
+
+# ---------- Audio Input (YouTube + File Uploads) ----------
+yt-dlp
+pydub
+ffmpeg-python
+
+# ---------- Local Transcription (Whisper) ----------
+openai-whisper
+torch
+torchaudio
+# Pinned to avoid resolver picking old numba/llvmlite builds that don't support Python 3.12+
+numba>=0.59.0
+llvmlite>=0.42.0
+
+# ---------- Translation (Hindi -> English) ----------
+# Whisper's built-in `translate` task handles this for supported languages.
+# Add one of these if you need a dedicated/fallback translator:
+# googletrans
+# deep-translator
+
+# ---------- LangChain + Mistral (LCEL summarization pipeline) ----------
+langchain
+langchain-core
+langchain-community
+langchain-mistralai
+mistralai
+
+# ---------- RAG Pipeline (Vector Store + Embeddings) ----------
+chromadb
+sentence-transformers
+huggingface-hub
+langchain-huggingface
+
+# ---------- Text Chunking / Utilities ----------
+tiktoken
+numpy
+pandas
+
+# ---------- Export (PDF / TXT) ----------
+fpdf2
+reportlab
+
+# ---------- Environment / Config ----------
+python-dotenv

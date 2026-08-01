@@ -1,0 +1,132 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.*
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================
+# IDEs
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# Pytest / Coverage
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+.cache/
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Chroma Vector Database
+# ==========================
+vector_db/
+chroma_db/
+
+# ==========================
+# Whisper Downloads
+# ==========================
+*.pt
+
+# ==========================
+# Model Cache
+# ==========================
+.cache/
+huggingface/
+.huggingface/
+
+# Hugging Face Cache
+~/.cache/huggingface/
+**/.cache/huggingface/
+
+# ==========================
+# Temporary Files
+# ==========================
+temp/
+tmp/
+*.tmp
+
+# ==========================
+# Generated Media
+# ==========================
+downloads/
+audio/
+videos/
+output/
+outputs/
+generated/
+exports/
+
+# Audio files
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.ogg
+*.flac
+
+# Video files
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+
+# Subtitle files
+*.srt
+*.vtt
+
+# ==========================
+# SQLite
+# ==========================
+*.db
+*.sqlite3
+
+# ==========================
+# Misc
+# ==========================
+*.bak
+*.old
+
+ffmpeg-*/
+*.zip
