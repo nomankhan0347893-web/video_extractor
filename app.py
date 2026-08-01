@@ -1,3 +1,12 @@
+import sys
+
+print("=" * 50)
+print("Python:", sys.executable)
+print("sys.path:")
+for p in sys.path:
+    print(p)
+print("=" * 50)
+
 import streamlit as st
 import time
 from dotenv import load_dotenv
@@ -9,6 +18,8 @@ from core.extracter import extract_action_items, extract_key_decision, extract_q
 from core.Rag_engine import build_rag_chain, ask_question
 
 load_dotenv()
+
+
 
 # ─── Page Config ─────────────────────────────────────────────────────────
 st.set_page_config(
