@@ -8,9 +8,9 @@ ffmpeg-python
 
 # ---------- Local Transcription (Whisper) ----------
 openai-whisper
-torch==2.13.0
-torchvision==0.28.0
-torchaudio==2.13.0
+torch
+torchvision
+torchaudio
 # Pinned to avoid resolver picking old numba/llvmlite builds that don't support Python 3.12+
 numba>=0.59.0
 llvmlite>=0.42.0
