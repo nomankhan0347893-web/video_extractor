@@ -1,36 +1,47 @@
-streamlit
+# ---------- UI ----------
+streamlit==1.60.0
 
+# ---------- Audio ----------
 yt-dlp
 pydub
 ffmpeg-python
 
+# ---------- Whisper ----------
 openai-whisper
 torch
 torchvision
 torchaudio
 
+# ---------- Performance ----------
 numba>=0.59.0
 llvmlite>=0.42.0
 
-langchain
-langchain-core
-langchain-community
-langchain-chroma
-langchain-huggingface
-langchain-mistralai
+# ---------- LangChain ----------
+langchain==0.3.27
+langchain-core==0.3.76
+langchain-community==0.3.29
+langchain-text-splitters==0.3.8
+langchain-chroma==0.2.5
+langchain-mistralai==0.2.11
 
-chromadb
+# ---------- Vector Store ----------
+chromadb==0.5.23
 
-sentence-transformers
-huggingface-hub
+# ---------- Embeddings ----------
+sentence-transformers==5.1.0
+huggingface-hub==0.35.0
 
-mistralai
+# ---------- LLM ----------
+mistralai==1.9.10
 
+# ---------- Utilities ----------
 tiktoken
 numpy
 pandas
 
+# ---------- Export ----------
 fpdf2
 reportlab
 
+# ---------- Environment ----------
 python-dotenv
