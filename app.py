@@ -3,9 +3,9 @@ import time
 from dotenv import load_dotenv
 from utils.audio_processor import process_input
 from core.transcribe import transcribe_all
-from core.summarize import summarize, generate_title
-from core.extracter import extract_action_items, extract_key_decision, extract_question
-from core.Rag_engine import build_rag_chain, ask_question
+from core.summarize import summarize,generate_title
+from core.extracter import extract_action_items,extract_key_decision,extract_question
+from core.Rag_engine import build_rag_chain,ask_question
 
 load_dotenv()
 
@@ -397,8 +397,8 @@ if run_btn:
 
             update_step("extract", "active")
             action_items  = extract_action_items(transcript)
-            decisions     = extract_key_decisions(transcript)
-            questions     = extract_questions(transcript)
+            decisions     = extract_key_decision(transcript)
+            questions     = extract_question(transcript)
             update_step("extract", "done")
 
             update_step("rag", "active")
