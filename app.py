@@ -1,3 +1,10 @@
+import shutil
+import yt_dlp
+import streamlit as st
+
+st.write("yt-dlp:", yt_dlp.version.__version__)
+st.write("Deno:", shutil.which("deno"))
+
 import streamlit as st
 import time
 from dotenv import load_dotenv
